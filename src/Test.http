@@ -1,0 +1,29 @@
+POST http://localhost:8080/user?name=Pavel&email=pavel1234@mail.ru
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+GET http://localhost:8080/user?id=1
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+GET http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+PUT http://localhost:8080/user?id=1&name=Maxim&email=max123@yandex.by
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+DELETE http://localhost:8080/user?id=2
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+DELETE http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+###
